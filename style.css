@@ -80,4 +80,107 @@ section
 #cv
 {
 	width: 90%;
+}@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('web fonts/CaviarDreams-webfont.eot');
+    src: url('web fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('web fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('web fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+
+}
+
+
+body
+{
+	font-family: "caviar_dreamsregular", "Times New Roman", "Courrier New", Arial;
+	background-image: url('images/papier.jpg');
+
+}
+
+#experience
+{
+
+}
+#introduction
+{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: teal;
+	text-shadow: 3px 3px 3px black;
+}
+h1
+{
+	text-align: center; 
+	font-size: 2.5em;
+	font-weight: bold;
+	border-width: 2px;
+	text-shadow: 3px 3px 3px black;
+}
+#moi
+{
+	float: right;
+	border: 4px solid teal;
+	box-shadow: 6px 6px 8px black;
+	border-radius: 6px / 8px;
+}
+
+h2
+{
+	text-decoration: underline;
+}
+
+#liseret
+{
+	width: 40px;
+   	height: 1100px;
+    background-image: url('images/liseret.png');
+    background-repeat: repeat-y;
+    border-radius: 10px;
+}
+
+#cv, #liseret
+{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+#liseret
+{
+	display:inline-block;
+	vertical-align: top;
+}
+
+section
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 10px;
+}
+
+#cv
+{
+	width: 95%;
+}
+
+@media screen and (max-width: 1024px)
+{
+	#liseret
+	{
+		display: none;
+	}
+
+	#introduction
+	{
+		font-size: 1.8em;
+	}
+
+	section
+	{
+		display: block;
+		width: 100%;
+	}
 }
