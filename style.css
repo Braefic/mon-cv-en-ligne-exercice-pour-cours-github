@@ -49,8 +49,8 @@ h2
 
 #liseret
 {
-	width: 50px;
-    height: 2000px;
+	width: 40px;
+   	height: 1100px;
     background-image: url('images/liseret.png');
     background-repeat: repeat-y;
     border-radius: 10px;
@@ -73,11 +73,11 @@ section
 {
 	display: inline-block;
 	vertical-align: top;
-	width: 25%;
-	margin: 1%;
+	width: 30%;
+	margin: 10px;
 }
 
 #cv
 {
-	width: 85%;
+	width: 90%;
 }
